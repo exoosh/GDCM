@@ -71,6 +71,8 @@ endif()
 #-----------------------------------------------------------------------------
 # PDB handling + Module handling
 include(${GDCM_SOURCE_DIR}/CMake/InstallMacros.cmake)
+# Sanitizers and hardening
+include(${GDCM_SOURCE_DIR}/CMake/Sanitizers_and_Hardening.cmake)
 #-----------------------------------------------------------------------------
 include(${GDCM_SOURCE_DIR}/CMake/UseCopyright.cmake)
 CREATE_COPYRIGHT_FILE(${CMAKE_CURRENT_BINARY_DIR}/Copyright.txt)
